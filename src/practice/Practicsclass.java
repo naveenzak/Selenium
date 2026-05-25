@@ -10,7 +10,7 @@ public class Practicsclass {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 	//driver	.manage().window().minimize();
-		driver.get("https://www.techlearn.in/");
+		driver.get("https://www.techlearn.in/admin");
 		driver.navigate().to("https://www.facebook.com/");
 		driver.navigate().back();
 		Thread.sleep(2000);
