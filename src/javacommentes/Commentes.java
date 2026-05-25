@@ -19,6 +19,13 @@ public class Commentes {
 		System.out.println("5+2");
 		
 
+		
+		// Singleline Comment
+		
+		/* Multiline Comments */
+		
+		/** Documentline Comment */
+		
 	}
 
 }
