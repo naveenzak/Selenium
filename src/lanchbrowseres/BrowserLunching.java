@@ -9,17 +9,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class BrowserLunching {
 
 	public static void main(String[] args) throws InterruptedException {
-		//WebDriver driver = new ChromeDriver();
+		  WebDriver driver = new ChromeDriver();
 		//WebDriver driver = new EdgeDriver();
-		WebDriver driver = new FirefoxDriver();
+		//WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.redmine.org/");
+		driver.get("https://www.selenium.dev/");
 		Thread.sleep(2000);
 		driver.navigate().to("https://www.techlearn.in/");
 		Thread.sleep(2000);
 		driver.navigate().refresh();
 		Thread.sleep(1000);
-		driver.quit();
+		driver.close();
 		
 		
 		
