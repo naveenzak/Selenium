@@ -9,7 +9,7 @@ public class NavigationMethodes {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		//driver.manage().window().minimize(;
-		driver.get("https://www.techlearn.in/");
+		driver.get("https://www.google.com/");
 		Thread.sleep(5000);
 		driver.navigate().to("https://www.facebook.com");
 		driver.navigate().back();
